@@ -21,7 +21,6 @@ header{
 
 .ft-16{
     font-size: 16px;
-    padding-top: 12px;
 }
 
 .title-container{
@@ -67,6 +66,7 @@ main{
 
 .main-left{
     width: 70%;
+    border-right: 2px solid #ccc;
 }
 
 .main-right{
@@ -97,4 +97,30 @@ main{
     padding: 15px;
     font-size: 20px;
     text-align: center;
+}
+
+.img-out{
+    margin-top: 20px;
+    width: 200px;
+    height: 80px;
+    position: relative;
+}
+
+.img-out .title-text{
+    position: absolute;
+    right: 30px;
+    top: 0;
+}
+
+.title-text div:nth-child(1){
+    padding-top: 20px;
+    color: #fff;
+}
+.title-text div:nth-child(2){
+    padding-top: 5px;
+    color: #fff;
+}
+
+.ft-12{
+    font-size: 12px;
 }
