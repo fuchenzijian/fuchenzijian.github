@@ -110,10 +110,10 @@ main{
     position: absolute;
     right: 30px;
     top: 0;
+    padding: 20px 0;
 }
 
 .title-text div:nth-child(1){
-    padding-top: 20px;
     color: #fff;
 }
 .title-text div:nth-child(2){
