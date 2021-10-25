@@ -1,0 +1,29 @@
+.box,
+.box1 {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.change {
+    animation: move 0.5s alternate both;
+}
+
+.flyin{
+    animation-name: leftfly;
+    animation-duration: 200ms;/*持续两秒*/
+    animation-iteration-count: 1;/*次数是1次*/
+    animation-timing-function: linear;/*匀速*/
+    animation-fill-mode: forwards;
+}
+
+@keyframes leftfly{
+    from{left:-1000px;opacity: 0};
+    to{left:0;opacity: 1;}
+}
+
+@keyframes move {
+    to {
+        background: yellow;
+    }
+}

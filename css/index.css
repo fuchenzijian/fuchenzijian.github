@@ -47,7 +47,7 @@ body{
 
 .show-first p:nth-child(2){
     text-align: right;
-    animation:fadeAndOut 2s infinite;
+    animation:fadeAndOut 2s linear infinite;
 }
 
 @keyframes fadeAndOut{
@@ -145,7 +145,7 @@ body{
     position: relative;
     animation-name: cubeRotate;/*名字*/
     animation-duration: 5s;/*持续时间*/
-    animation-iteration-count: infinite;/*次数是一直*/
+    animation-iteration-count: 1;/*次数是一直*/
     animation-timing-function: linear;/*速度*/
     animation-delay: 4s;
 }
@@ -158,9 +158,9 @@ body{
 
 /*正方体*/
 .box>div{
-    width: 400px;
-    height: 400px;
-    line-height: 400px;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
     text-align: center;
     position: absolute;
     opacity: 0.6;
@@ -169,31 +169,31 @@ body{
 .box1 {
     background-color: tomato;
     /* 最上面的板， */
-    transform: translateZ(200px);
+    transform: translateZ(100px);
 }
 
 .box2 {
-    transform: rotateX(-90deg) translateZ(200px);
+    transform: rotateX(-90deg) translateZ(100px);
     background-color: springgreen;
 }
 
 .box3 {
     background-color: rgb(71, 44, 39);
-    transform: translateZ(-200px);
+    transform: translateZ(-100px);
 }
 
 .box4 {
-    transform: rotateX(-90deg) translateZ(-200px);
+    transform: rotateX(-90deg) translateZ(-100px);
     background-color: rgb(58, 31, 94);
 }
 
 .box5 {
     background-color: rgb(71, 44, 39);
-    transform: rotateY(-90deg) translateZ(200px);
+    transform: rotateY(-90deg) translateZ(100px);
 }
 
 .box6 {
-    transform: rotateY(-90deg) translateZ(-200px);
+    transform: rotateY(-90deg) translateZ(-100px);
     background-color: rgb(58, 31, 94);
 }
 

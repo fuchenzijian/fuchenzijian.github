@@ -1,0 +1,163 @@
+.box,
+.box1 {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.change {
+    animation: move 0.5s alternate both;
+}
+
+.flyin{
+    animation-name: leftfly;
+    animation-duration: 200ms;/*持续两秒*/
+    animation-iteration-count: 1;/*次数是1次*/
+    animation-timing-function: linear;/*匀速*/
+    animation-fill-mode: forwards;
+}
+
+@keyframes leftfly{
+    from{left:-1000px;opacity: 0};
+    to{left:0;opacity: 1;}
+}
+
+@keyframes move {
+    to {
+        background: yellow;
+    }
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.wrap header {
+  background-color: #1890ff;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrap header .title-container {
+  display: flex;
+  width: 940px;
+  height: 120px;
+}
+.wrap header .title-container .title-left {
+  width: 740px;
+  display: flex;
+  flex-direction: column;
+}
+.wrap header .title-container .title-right {
+  width: calc(940px - 740px);
+}
+.wrap header .title-container .title-right .img-out {
+  margin-top: 20px;
+  width: 200px;
+  height: 80px;
+  position: relative;
+}
+.wrap header .title-container .title-right .img-out .title-text {
+  position: absolute;
+  right: 30px;
+  top: 0;
+  margin: 20px 0;
+}
+.wrap header .title-container .title-right .img-out .title-text div:nth-child(1) {
+  color: #fff;
+}
+.wrap header .title-container .title-right .img-out .title-text div:nth-child(2) {
+  padding-top: 5px;
+  color: #fff;
+}
+.wrap main {
+  width: 50%;
+  margin: 0 auto;
+  padding: 30px 0 0 0;
+  display: flex;
+}
+.wrap main .main-left {
+  width: 70%;
+  padding-right: 20px;
+  border-right: 2px solid #ccc;
+  min-height: 100vh;
+}
+.wrap main .main-left .article-item {
+  margin: 0 0 20px 0;
+  position: relative;
+  left: -1500px;
+}
+.wrap main .main-left .article-item .article-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.wrap main .main-left .article-item .article-contain {
+  font-size: 14px;
+  overflow: hidden;
+  display: inline;
+  text-indent: 25px;
+}
+.wrap main .main-left .article-item span {
+  color: blue;
+  cursor: pointer;
+}
+.wrap main .main-right {
+  width: 30%;
+}
+.wrap main .main-right .nav {
+  width: 200px;
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #1890ff;
+  margin: 0 auto;
+  margin: 20px;
+  border-radius: 10px;
+}
+.wrap main .main-right .nav:nth-child(1) {
+  margin-top: 0;
+}
+.wrap .all-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrap .ft-74 {
+  font-size: 74px;
+}
+.wrap .ft-16 {
+  font-size: 16px;
+}
+.wrap .cl-white {
+  color: #fff;
+}
+.wrap .cl-grey {
+  color: #ccc;
+}
+.wrap .cl-blue {
+  color: #1890ff;
+}
+.wrap .flyin {
+  animation-name: leftfly;
+  animation-duration: 200ms;
+  /*持续两秒*/
+  animation-iteration-count: 1;
+  /*次数是1次*/
+  animation-timing-function: linear;
+  /*匀速*/
+  animation-fill-mode: forwards;
+}
+@keyframes leftfly {
+  from {
+    left: -1000px;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+.wrap .ft-12 {
+  font-size: 12px;
+}
+
