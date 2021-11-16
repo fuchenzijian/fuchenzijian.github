@@ -2,7 +2,7 @@ import '../../assets/css/Ani.css'
 import Animate from '../../assets/js/Animate'
 import Translate from '../../assets/js/Translate'
 import {articles} from '../article_route'
-import Ellipsis from '../../assets/js/Ellipsis'
+import {Ellipsis} from '../../assets/js/Ellipsis'
 
 
 
@@ -42,13 +42,14 @@ for(let i = 0;i < articles.length; i++){
 }
 oWrap.appendChild(fragement);
 
-let ellipsis = new Ellipsis({
+ new Ellipsis({
         el:'.article-contain',
         textCount:130,
         findAllButtonText:"查看所有",
         showFindAllButton:true
-    })
-ellipsis.exec();
+    }).exec();
+
+    
 Animate.create().use(Translate).mount('.article-item');
 
 // 动态创建文本；

@@ -1,0 +1,192 @@
+.box,
+.box1 {
+    width: 100px;
+    height: 100px;
+    background: red;
+}
+
+.change {
+    animation: move 0.5s alternate both;
+}
+
+.flyin{
+    position: relative;
+    animation-name: leftfly;
+    animation-duration: 200ms;/*持续两秒*/
+    animation-iteration-count: 1;/*次数是1次*/
+    animation-timing-function: linear;/*匀速*/
+    animation-fill-mode: forwards;
+}
+
+@keyframes leftfly{
+    from{left:-1000px;opacity: 0};
+    to{left:0;opacity: 1;}
+}
+
+@keyframes move {
+    to {
+        background: yellow;
+    }
+}
+#wrap header {
+  background-color: #fff;
+}
+#wrap header .content {
+  width: 1200px;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+#wrap header .content .header-left .ad {
+  display: inline-block;
+  font-size: 25px;
+  text-align: center;
+  color: blue;
+  padding: 10px 0;
+}
+#wrap header .content .header-left .hedaer-option {
+  display: inline-block;
+  margin-left: 30px;
+}
+#wrap header .content .header-left .hedaer-option a {
+  padding: 0 15px;
+  font-size: 16px;
+}
+#wrap main {
+  display: flex;
+  width: 1000px;
+  padding: 15px;
+  margin: 0 auto;
+  margin-top: 10px;
+  justify-content: space-between;
+}
+#wrap main aside {
+  width: 296px;
+}
+#wrap main aside .content {
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+#wrap main aside .ad-out .ad {
+  width: 296px;
+  height: 246.66px;
+}
+#wrap main aside .copy-out p {
+  padding: 5px 0;
+  color: #ccc;
+  font-size: 14px;
+}
+#wrap main aside .check-service img {
+  width: 296px;
+  height: 100px;
+}
+#wrap main aside .check-service .catgory-list {
+  margin: 20px 0 0 0;
+  width: 296px;
+  padding: 0 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+#wrap main aside .check-service .catgory-list .list {
+  width: 91.08px;
+  height: 55px;
+}
+#wrap main aside .check-service .catgory-list .list .list-img {
+  text-align: center;
+}
+#wrap main aside .check-service .catgory-list .list .list-img img {
+  width: 24px;
+  height: 24px;
+}
+#wrap main aside .check-service .catgory-list .list .list-text {
+  text-align: center;
+  font-size: 12px;
+}
+#wrap main article {
+  width: 680px;
+}
+#wrap main article .item {
+  background-color: #fff;
+  border-bottom: 2px solid #f6f6f6;
+}
+#wrap main article .item .ContentItem-actions {
+  padding: 15px 15px 15px 15px;
+  display: flex;
+  align-items: center;
+}
+#wrap main article .item .ContentItem-actions .agree-with {
+  padding: 5px 12px;
+  background-color: #0066ff1A;
+  font-size: 16px;
+  color: #0066ff;
+  display: flex;
+  font-family: cursive;
+  align-items: center;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+#wrap main article .item .ContentItem-actions .agree-with .Regular-triangle {
+  margin: 8px;
+  width: 0px;
+  height: 0px;
+  border: 100px solid red;
+  border-width: 0px 6px 6px 6px;
+  border-style: solid;
+  border-color: transparent transparent #0066ff transparent;
+}
+#wrap main article .item .ContentItem-actions .agree-with .Inverted-triangle {
+  margin: 8px;
+  width: 0px;
+  height: 0px;
+  border: 100px solid red;
+  border-width: 6px 6px 0px 6px;
+  border-style: solid;
+  border-color: #0066ff transparent transparent transparent;
+}
+#wrap main article .item .article-title {
+  padding: 15px;
+  font-size: 24px;
+  font-weight: 600;
+}
+#wrap main article .item .article-content {
+  padding: 20px;
+}
+#wrap main article .showmore {
+  text-align: center;
+  color: #ccc;
+  cursor: pointer;
+}
+#wrap footer {
+  background-color: yellow;
+}
+body {
+  background-color: #f6f6f6;
+}
+body,
+p,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+.flyin {
+  animation-name: leftfly;
+  animation-duration: 200ms;
+  /*持续两秒*/
+  animation-iteration-count: 1;
+  /*次数是1次*/
+  animation-timing-function: linear;
+  /*匀速*/
+  animation-fill-mode: forwards;
+}
+@keyframes leftfly {
+  from {
+    left: -1000px;
+    opacity: 0;
+  }
+  to {
+    left: 0;
+    opacity: 1;
+  }
+}
+

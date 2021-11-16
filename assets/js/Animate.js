@@ -21,6 +21,7 @@ export default class Animate{
 
    static model;
 
+
    use(Translate){
        try{
          Animate.model= Translate.install();
@@ -30,19 +31,3 @@ export default class Animate{
        return this;
    }
 }
-
-
-// let animate = Animate.create().use(Translate).mount(document.querySelector('div')
-// export default class Translate extends Animate{
-//     constructor(){
-//         super()
-//     }
-//     exec(){
-//         let _this = this;
-//         this.el.classList.add('ani-translate');
-//         super.emit('animationstart')
-//         // this.el.addEventListener('animationstart',function(e){
-//         //     e.target.classList.remove('ani-translate');
-//         // })
-//     }
-// }

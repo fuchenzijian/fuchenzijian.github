@@ -7,15 +7,13 @@ export default class Translate extends Animate{
 
     //获取到第几次.
     
-
     static install(){
         return  Translate;
     }
 
     //执行动画
     exec(){
-        let arr = Array.from(document.querySelectorAll(this.el));
-        let target = arr.slice();     
+        let target =(this.el).slice();     
         this.animation(target);
     }
 

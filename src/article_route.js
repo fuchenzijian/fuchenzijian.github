@@ -9,32 +9,32 @@ import {parseHTML,parseStr} from '../assets/js/ConvertHTML'
 export let articles =[
     {
         id:1,
-        title:'如何看待知乎上的男拳',
+        title:'如何看待知乎上的男拳1',
         article:parseHTML(articl1),
         text:parseStr(parseHTML(articl1)),
     },
     {
         id:2,
-        title:'如何看待知乎上的男拳',
+        title:'如何看待知乎上的男拳2',
         article:parseHTML(articl2),
         text:parseStr(parseHTML(articl2)),
     },
     {
         id:3,
-        title:'如何看待知乎上的男拳',
+        title:'如何看待知乎上的男拳3',
         article:parseHTML(articl3),
         text:parseStr(parseHTML(articl3)),
     },
     {
         id:4,
-        title:'如何看待知乎上的男拳',
+        title:'如何看待知乎上的男拳4',
         article:parseHTML(articl4),
         text:parseStr(parseHTML(articl4)),
 
     },
     {
         id:5,
-        title:'如何看待知乎上的男拳',
+        title:'如何看待知乎上的男拳5',
         article:parseHTML(articl5),
         text:parseStr(parseHTML(articl5)),
     },

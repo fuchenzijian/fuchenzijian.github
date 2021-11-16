@@ -10,6 +10,7 @@
 }
 
 .flyin{
+    position: relative;
     animation-name: leftfly;
     animation-duration: 200ms;/*持续两秒*/
     animation-iteration-count: 1;/*次数是1次*/
