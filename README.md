@@ -168,7 +168,7 @@
 
 ## 			task_status:[int] 任务状态
 
-## 			score :[int]  1 2 3 4 评分
+## 			score :[int] 评分 1优 2良 3中 4差 
 
 ## 			progress:[int] 任务完成度
 
@@ -233,6 +233,38 @@
 ## 		msg:[string] 信息描述
 
 ## ---------------------------------------------------
+
+## 接口名称:'/task/ranking';
+
+## 接口类型:'post'
+
+## 入参:无
+
+## 出参:
+
+## 		status : 0 | 1    0失败   1 成功
+
+## 		msg:[string]  信息描述
+
+## 		data:[arr]数据
+
+## 		avator_name:[string] 用户名
+
+## 			email:[string] 邮箱名
+
+## 			task_name:[string]任务名称
+
+## 			task_status:[int] 任务状态
+
+## 			score :[int] 评分 1优 2良 3中 4差 
+
+## 			progress:[int] 任务完成度
+
+## 			pid:[int] 当前任务是谁的子任务
+
+## 			task_id:[int] 这个是当前任务的id
+
+## 			updated_at:[] 这个是任务的更改时间
 
 
 
