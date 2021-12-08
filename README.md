@@ -160,6 +160,24 @@
 
 ## 		data:[array] application/json类型返回的是任务
 
+## 			avator_name:[string] 用户名
+
+## 			email:[string] 邮箱名
+
+## 			task_name:[string]任务名称
+
+## 			task_status:[int] 任务状态
+
+## 			score :[int]  1 2 3 4 评分
+
+## 			progress:[int] 任务完成度
+
+## 			pid:[int] 当前任务是谁的子任务
+
+## 			task_id:[int] 这个是当前任务的id
+
+## 			updated_at:[] 这个是任务的更改时间
+
 ## --------------------------------------------------------------------------
 
 ## 接口名:'/user/task/list';
