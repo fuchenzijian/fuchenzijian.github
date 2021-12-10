@@ -210,21 +210,19 @@
 
 ## 入参:
 
-## 		avatorName:[string] 这个是用户的名称
+## 	  avatorName:[String],   //用户昵称
 
-## age:[int]这个是用户的年龄   必须大于10岁小于150岁
+##       age :[number] , //用户年龄
 
-## sex:[int]   0 | 1 这个是用户的性别   
+##       sex:[number] , //用户性别  //1男 0女
 
-## avatorImg:[int] 这个是传图片的索引  
+##       avatorImg:[number] , //用户头像 
 
-## classId:[int] 这个是班级的索引   可不填
+##       classId:[number], //班级的id
 
-## description:[string] 这个是个性签名
+##       description:[String],//个性签名 最多150个字符
 
-## phone:[string]这个是用户的手机号码
-
-## email:[string]这个是用户的邮箱
+##       phone:[String]//手机号码   
 
 ## 出参:
 
