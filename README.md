@@ -102,13 +102,13 @@
 
 ## id:[int] 用户的id
 
-## avator_name:[String]用户的名称
+## avatorName:[String]用户的名称
 
 ## age:[int] 用户的年龄
 
-## avator_img:[int]用户的头像索引值
+## avatorImg:[int]用户的头像索引值
 
-## class_id:[int] 班级的索引
+## classId:[int] 班级的索引
 
 ## description:[String]个性签名
 
@@ -116,11 +116,11 @@
 
 ## email:[String]邮箱号  
 
-## login_time:[] 这个不用管
+## loginTime:[] 这个不用管
 
-## created_at:[时间] 这个是创建时间
+## createdAt:[时间] 这个是创建时间
 
-## updated_at:[时间]这个是上次登录的时间
+## updatedAt:[时间]这个是上次登录的时间
 
 # --------------------------------------------------------
 
@@ -160,13 +160,13 @@
 
 ## 		data:[array] application/json类型返回的是任务
 
-## 			avator_name:[string] 用户名
+## 			avatorName:[string] 用户名
 
 ## 			email:[string] 邮箱名
 
-## 			task_name:[string]任务名称
+## 			taskName:[string]任务名称
 
-## 			task_status:[int] 任务状态
+## 			taskStatus:[int] 任务状态
 
 ## 			score :[int] 评分 1优 2良 3中 4差 
 
@@ -174,9 +174,9 @@
 
 ## 			pid:[int] 当前任务是谁的子任务
 
-## 			task_id:[int] 这个是当前任务的id
+## 			taskId:[int] 这个是当前任务的id
 
-## 			updated_at:[] 这个是任务的更改时间
+## 			updatedAt:[] 这个是任务的更改时间
 
 ## --------------------------------------------------------------------------
 
@@ -250,13 +250,13 @@
 
 ## 		data:[arr]数据
 
-## 		avator_name:[string] 用户名
+## 		avatorName:[string] 用户名
 
 ## 			email:[string] 邮箱名
 
-## 			task_name:[string]任务名称
+## 			taskName:[string]任务名称
 
-## 			task_status:[int] 任务状态
+## 			taskStatus:[int] 任务状态
 
 ## 			score :[int] 评分 1优 2良 3中 4差 
 
@@ -264,9 +264,9 @@
 
 ## 			pid:[int] 当前任务是谁的子任务
 
-## 			task_id:[int] 这个是当前任务的id
+## 			taskId:[int] 这个是当前任务的id
 
-## 			updated_at:[] 这个是任务的更改时间
+## 			updatedAt:[] 这个是任务的更改时间
 
 ## ------------------------------------------------------------
 
