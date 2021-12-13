@@ -310,7 +310,7 @@
 
 ## {
 
-##     type:[Number] // 未登录 : 0
+##     version:[Number] // 未登录 : 0
 
 ##     username:[String] // 用户账号
 
